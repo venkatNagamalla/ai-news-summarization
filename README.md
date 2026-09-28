@@ -210,6 +210,7 @@ AI-News-Summarizer/
 │
 ├── screenshots/
 │   └── workflow.png
+|   └── result.png
 │
 ├── .gitignore
 │
