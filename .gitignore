@@ -1,0 +1,61 @@
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# API keys / credentials
+
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# n8n local data
+
+.n8n/
+.n8n/*
+n8n_data/
+n8n_data/*
+
+# Local workflow exports containing credentials
+
+workflow-with-credentials.json
+*-with-credentials.json
+*credentials*.json
+
+# Node.js
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Logs
+
+*.log
+logs/
+
+# OS generated files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor files
+
+.vscode/
+.idea/
+
+# Temporary files
+
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Build / coverage
+
+dist/
+build/
+coverage/
